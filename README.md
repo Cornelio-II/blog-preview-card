@@ -6,14 +6,16 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - [Frontend Mentor - Blog preview card solution](#frontend-mentor---blog-preview-card-solution)
   - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [Useful resources](#useful-resources)
   - [Do you have any feedback for me?](#do-you-have-any-feedback-for-me)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
+  - [Javascipt framework](#javascipt-framework)
+    - [Vue.js framework + Vite](#vuejs-framework--vite)
   - [Recommended IDE Setup](#recommended-ide-setup)
   - [Customize configuration](#customize-configuration)
   - [Project Setup](#project-setup)
@@ -21,6 +23,15 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
     - [Compile and Minify for Production](#compile-and-minify-for-production)
     - [Lint with ESLint](#lint-with-eslint)
   - [Author](#author)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See hover and focus states for all interactive elements on the page
 
 
 ### Screenshot
@@ -64,9 +75,9 @@ Here’s how you can provide feedback:
 I appreciate your support and contributions to making this project better!
 
 
-## Overview
+## Javascipt framework
 
-### The challenge
+### Vue.js framework + Vite
 
 This template should help get you started developing with Vue 3 in Vite.
 
