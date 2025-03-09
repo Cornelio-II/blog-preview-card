@@ -13,6 +13,7 @@ dist
 dist-ssr
 coverage
 *.local
+.prettierignore
 
 /cypress/videos/
 /cypress/screenshots/
@@ -28,3 +29,9 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# Avoid accidental upload of the Sketch and Figma design files
+*.sketch
+*.figma
+# Avoid accidental XD upload if you convert the design file
+*.xd
