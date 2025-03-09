@@ -79,7 +79,7 @@ I appreciate your support and contributions to making this project better!
 
 ### Vue3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with [Vue 3](https://vuejs.org/guide/introduction.html) in [Vite](https://vite.dev/guide/).
 
 ## Recommended IDE Setup
 
