@@ -15,7 +15,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
     - [Useful resources](#useful-resources)
   - [Do you have any feedback for me?](#do-you-have-any-feedback-for-me)
   - [Javascipt framework](#javascipt-framework)
-    - [Vue.js framework + Vite](#vuejs-framework--vite)
+    - [Vue3 + Vite](#vue3--vite)
   - [Recommended IDE Setup](#recommended-ide-setup)
   - [Customize configuration](#customize-configuration)
   - [Project Setup](#project-setup)
@@ -77,7 +77,7 @@ I appreciate your support and contributions to making this project better!
 
 ## Javascipt framework
 
-### Vue.js framework + Vite
+### Vue3 + Vite
 
 This template should help get you started developing with Vue 3 in Vite.
 
