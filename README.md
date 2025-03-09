@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [blog-preview-card](https://github.com/Timex29/blog-preview-card)
+- Live Site URL: [blog-preview-card](https://timex29.github.io/blog-preview-card/)
 
 ## My process
 
@@ -52,7 +52,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Vue] + [Vite](https://vuejs.org/) -  Js framework  
+- [Vue.js](https://vuejs.org/) -  Js framework  
 
 
 
