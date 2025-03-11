@@ -22,7 +22,7 @@
 
   <footer>
     <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/Timex29" target="_blank">Cornelio</a>.</p>
+      Coded by <a href="https://github.com/Timex29/blog-preview-card">Cornelio</a>.</p>
   </footer>
 </template>
 <style scoped>
