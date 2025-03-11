@@ -1,12 +1,11 @@
 <template>
-  <div class="card-container">
-    <header aria-label="Blog preview card">
-      <img src="/illustration-article.svg?url" alt="illustration-article" type="image/svg" />
-
-    </header>
-    <main>
-      <h2>Learning</h2>
-      <span>Published 21 Dec 2023</span>
+  <main>
+    <div class="card-container">
+      <img src="/illustration-article.svg?url" alt="illustration-article" />
+      <header aria-label="Blog preview card">
+        <h2>Learning</h2>
+        <span>Published 21 Dec 2023</span>
+      </header>
       <section>
         <h1> HTML & CSS foundations</h1>
         <p> These languages are the backbone of every website, defining structure, content, and presentation.</p>
@@ -17,18 +16,17 @@
           Greg Hooper
         </div>
       </aside>
-    </main>
-  </div>
-
-  <footer>
-    <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/Timex29/blog-preview-card">Cornelio</a>.</p>
-  </footer>
+    </div>
+    <footer>
+      <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/Timex29/blog-preview-card">Cornelio</a>.</p>
+    </footer>
+  </main>
 </template>
 <style scoped>
 .card-container {
   background-color: var(--white);
-  border-radius: 0.625rem;
+  border-radius: 1rem;
   box-shadow: 0.625rem 0.625rem 0.2rem var(--gray-950);
   margin: 0 auto;
   border: 0.063rem solid var(--gray-950);
@@ -37,12 +35,11 @@
   overflow: hidden;
   margin: 2rem auto;
 }
-
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   margin-bottom: 1rem;
 }
 
@@ -78,10 +75,6 @@ span {
   color: var(--gray-500);
   font-size: 0.8rem;
   font-weight: bold;
-}
-
-main {
-  margin-bottom: 1rem;
 }
 
 p {
