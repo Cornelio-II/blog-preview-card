@@ -1,27 +1,29 @@
 <template>
-  <main>
-    <div class="card-container">
-      <img src="/illustration-article.svg?url" alt="illustration-article" />
-      <header aria-label="Blog preview card">
-        <h2>Learning</h2>
-        <span>Published 21 Dec 2023</span>
-      </header>
-      <section>
+
+  <div class="card-container">
+    <img src="/illustration-article.svg?url" alt="illustration-article" />
+    <header aria-label="Blog preview card">
+      <h2>Learning</h2>
+      <span>Published 21 Dec 2023</span>
+    </header>
+    <main>
+      <article>
         <h1> HTML & CSS foundations</h1>
         <p> These languages are the backbone of every website, defining structure, content, and presentation.</p>
-      </section>
-      <aside>
-        <div class="author">
-          <img srcset="/image-avatar.webp" class="image-avatar" alt="avatar-michelle" type="image/webp" />
-          Greg Hooper
-        </div>
-      </aside>
-    </div>
-    <footer>
-      <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="https://github.com/Timex29/blog-preview-card">Cornelio</a>.</p>
-    </footer>
-  </main>
+      </article>
+    </main>
+    <aside>
+      <div class="author">
+        <img src="/image-avatar.webp" class="image-avatar" alt="avatar-michelle"/>
+        Greg Hooper
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Timex29/blog-preview-card">Cornelio</a>.</p>
+  </footer>
+
 </template>
 <style scoped>
 .card-container {
@@ -113,6 +115,21 @@ footer {
 
   footer {
     text-align: center;
+  }
+}
+a,
+.green {
+  text-decoration: underline;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 0.188rem;
+
+}
+
+@media (hover: hover) {
+  a:hover {
+    text-decoration: none;
+    font-weight: bold;
   }
 }
 </style>
