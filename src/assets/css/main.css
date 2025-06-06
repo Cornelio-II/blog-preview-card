@@ -40,21 +40,17 @@ body {
   line-height: 1.6;
   font-family: "Red Hat Text", sans-serif;
   background-color: var(--yellow);
-  transition: background-color 0.3s ease-in-out;
 }
 
 img
 {
   max-inline-size: 100%;
   max-block-size: 100%;
+  width: 100%;
+  height: auto;
   aspect-ratio: 3 / 2;
   object-fit: cover;
   object-position: top center;
-}
-
-img {
-  width: 100%;
-  height: auto;
   border-radius: 0.625rem;
   display: block;
 }
