@@ -44,10 +44,10 @@ body {
 
 img
 {
-  max-inline-size: 100%;
-  max-block-size: 100%;
-  width: 100%;
-  height: auto;
+  max-inline-size: 100%; /* replaces max-width */
+  max-block-size: 100%; /* optional, limits height/block size */
+  inline-size: auto; /* replaces width: auto; keeps aspect ratio */ 
+  block-size: auto; /* replaces height: auto; keeps aspect ratio */
   aspect-ratio: 3 / 2;
   object-fit: cover;
   object-position: top center;
@@ -72,9 +72,15 @@ img
   font-weight: 700;
   color: var(--gray-950);
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .name {
+    transition:  0.4s ease-in-out;
+  }
+}
+
 .name:hover {
   color: var(--yellow);
-  transition:  0.4s ease-in-out;
 }
 
 .tittle{
