@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [blog-preview-card](https://github.com/Timex29/blog-preview-card)
-- Live Site URL: [blog-preview-card](https://timex29.github.io/blog-preview-card/)
+- Solution URL: [blog-preview-card](https://github.com/Cornelio-II/blog-preview-card)
+- Live Site URL: [blog-preview-card](https://Cornelio-II.github.io/blog-preview-card/)
 
 ## My process
 
