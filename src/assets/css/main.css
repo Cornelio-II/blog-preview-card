@@ -58,8 +58,6 @@ img
 .card-container {
   background-color: var(--white);
   border-radius: 1rem;
-  box-shadow: 0.625rem 0.625rem 0.2rem var(--gray-950);
-  border: 0.063rem solid var(--gray-950);
   padding: clamp(0.75rem, 0.75rem + 0.5vw, 1rem);
   inline-size: 18.75rem; /* replaces width: auto; keeps aspect ratio */ 
   overflow: hidden;
